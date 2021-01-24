@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #fff;
+}
+
+#main {
+    background-color: #6D6EA7;
+    width: 100%;
+    height: 1100px;
+    position: fixed;
+}
+
+#survey-form {
+    top: 10px;
+    position: absolute;
+    background-color: #252545;
+    margin: 100px auto 0px auto;
+    padding: 30px;
+}
+
+
+

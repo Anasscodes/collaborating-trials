@@ -7,49 +7,87 @@
     <title>Survey</title>
 </head>
 <body>
-    <div><h1 id="title">SURVEY FORM</h1>
+    <div id="main"><h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us 
         improve the platform</p> </div>
-    <div>
-        <form action="" id="survey-form">
-            <label for="name">Full name :</label>
-            <input type="text" placeholder="name" id="name-label" required><br>
-            <label for="email">email :</label>
-            <input type="email" name="email" id="email-label"  placeholder="email" required><br>
-            <label for="age">age :</label>
-            <input type="number"  min="16" max="90" id="name-label" required><br>
-            <span id="dropdown"><label for="current role" id="role">Current occupation:</label>
+    <div id="survey-form">
+        <form action="#" >
+
+            <label for="name">Name</label><br>
+            <input type="text" name="name" placeholder="Enter your name" id="name-label" required><br><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email-label"  placeholder="Enter your Email" required><br><br>
+            <label for="age">Age (<span>optional</span>)</label><br>
+            <input type="number"  min="16" max="90" id="name-label" required><br><br>
+
+
+            <span id="dropdown">
+                
+                <label for="current role" id="role">Which option best describes your current role?</label><br>
                 <select name="Current role" id="role">
-                    <option value="role">Current occupation</option>
+                    <option value="none">Select current role</option>
                     <option value="student">Student</option>
                     <option value="Graduate">Graduate</option>
                     <option value="part-time">Part-time job</option>
                     <option value="Full-time">Full-time job</option>
-                    <option value="No occupation">without work</option>
-                </select></span><br>
+                    <option value="No occupation">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select></span><br><br><br>
             
-            <span id="radio"><label for="radio">Would you like a full-time or part-time job?
-            </label>
+            <span id="radio">
+                <label for="radio">Would you recommend freeCodeCamp to a friend?</label><br>
                 <input type="radio" value="Yes ">
-                <label for="yes">Yes definetly.</label>
+                <label for="yes">Yes definetly.</label><br>
                 <input type="radio" value="Maybe">
-                <label for="Maybe">Maybe.</label>
+                <label for="Maybe">Maybe.</label><br>
                 <input type="radio" value="Not sure">
-                <label for="Not sure">Not sure.</label>
+                <label for="Not sure">Not sure.</label><br>
             </span><br>
+
+            <label for="current role" id="role">What is your favorite feature of freeCodeCamp? </label><br>
+                <select name="Current role" id="role">
+                    <option value="none">Select an option</option>
+                    <option value="student">Challenge</option>
+                    <option value="Graduate">Projects</option>
+                    <option value="part-time">Community</option>
+                    <option value="Full-time">Open source</option>
+                </select></span><br><br><br>
+
+
             <span id="check" for="checkbox">
-                <label for="jobs">What kind of job you are looking for?</label>
+                <label for="jobs">What would you like to see improved? (Check all that apply) </label><br>
                 <input type="checkbox" name="checkbox" id="check1">
-                <label for="fe">Developer</label>
+                <label for="fe">Front-end Projects</label><br>
                 <input type="checkbox" name="checkbox" id="check2">
-                <label for="fe">Enginner</label>
+                <label for="fe">Back-end Projects</label><br>
                 <input type="checkbox" name="checkbox" id="check3">
-                <label for="fe">Architect</label>
-            </span><br>
+                <label for="fe">Data Visualization</label><br>
+                <input type="checkbox" name="checkbox" id="check3">
+                <label for="fe">Challenges</label><br>
+                <input type="checkbox" name="checkbox" id="check3">
+                <label for="fe">Open Source Community</label><br>
+                <input type="checkbox" name="checkbox" id="check3">
+                <label for="fe">Gitter help rooms</label><br>
+                <input type="checkbox" name="checkbox" id="check3">
+                <label for="fe">Videos</label><br>
+                <input type="checkbox" name="checkbox" id="check3">
+                <label for="fe">City Meetups</label><br>
+                <input type="checkbox" name="checkbox" id="check3">
+                <label for="fe">Wiki</label><br>
+                <input type="checkbox" name="checkbox" id="check3">
+                <label for="fe">Forum</label><br>
+                <input type="checkbox" name="checkbox" id="check3">
+                <label for="fe">Additional Courses</label>
+            </span><br><br>
 
-            <span id ="comments"><input type="text" placeholder="comments"></span><br>
-
-            <span id="button"><button type="submit">Submit!</button></span>
+            <span id ="comments">
+                <p>Any comments or suggestions?</p>
+                <textarea name="" id="" cols="50" rows="4"></textarea>
+            </span><br><br>
+            
+            <span id="button">
+                <button type="submit">Submit!</button>
+            </span>
 
         </form>
     </div>
