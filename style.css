@@ -4,20 +4,30 @@
 }
 
 body {
-    color: #fff;
+    color: #6D6EA7;
+}
+.global-container{
+    display: flex;
+    justify-content: center;
 }
 
 #main {
     background-color: #6D6EA7;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 20px 20px;
     width: 100%;
     height: 1100px;
-    position: fixed;
+    position: relative;
 }
 
 #survey-form {
+    color: #ffffff;
     top: 10px;
     position: absolute;
     background-color: #252545;
+    
     margin: 100px auto 0px auto;
     padding: 30px;
 }
