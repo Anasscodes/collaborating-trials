@@ -12,7 +12,7 @@ body {
 }
 
 #main {
-    background-color: #6D6EA7;
+    background-color: rgba(109, 110, 167, .5);
     color: white;
     text-align: center;
     padding: 20px 20px;
@@ -22,11 +22,17 @@ body {
     position: relative;
 }
 
+#main img {
+    width: 100%;
+    opacity: .4;
+    position: fixed;
+}
+
 #survey-form {
     color: #ffffff;
     top: 10px;
     position: absolute;
-    background-color: #252545;
+    background-color: rgba(37, 37, 69, .5);
     
     margin: 100px auto 0px auto;
     padding: 30px;
