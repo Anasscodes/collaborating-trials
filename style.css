@@ -32,5 +32,29 @@ body {
     padding: 30px;
 }
 
+#button{
+    justify-content: center;
+    height: 30px ;
+    width: 50px;
+    
+    border-radius: 10%;
+    background-color: #6D6EA7;
+    font-size: 13px;
+    color: #DDDBF1;
+}
+
+.btn{
+    
+    
+    display: inline;
+    margin:0 auto;
+    
+}
+
+#button:hover{
+    scale: 1px;
+    background-color:#252545 ;
+    color: #ffffff;
+}
 
 
